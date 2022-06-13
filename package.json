@@ -6,12 +6,15 @@
     "node": "14"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "prettier": "prettier --write src"
   },
   "dependencies": {
     "abstract-syntax-tree": "^2.20.6",
     "commander": "^9.3.0",
     "lodash": "^4.17.21"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
 }
