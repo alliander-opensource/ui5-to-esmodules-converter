@@ -1,0 +1,17 @@
+{
+  "name": "ui5-import-converter",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "abstract-syntax-tree": "^2.20.6",
+    "commander": "^9.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {}
+}
