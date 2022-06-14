@@ -1,6 +1,6 @@
 {
   "name": "ui5-import-converter",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "engines": {
     "node": "14"
@@ -10,8 +10,11 @@
     "prettier": "prettier --write src"
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.3",
     "abstract-syntax-tree": "^2.20.6",
+    "astravel": "^0.6.1",
     "commander": "^9.3.0",
+    "estree-util-attach-comments": "^2.0.1",
     "glob": "^8.0.3",
     "lodash": "^4.17.21"
   },

@@ -1,6 +1,6 @@
-const _ = require("lodash");
+import _ from "lodash";
 
-const isSapUiRequire = _.matches({
+export const isSapUiRequire = _.matches({
   type: "ExpressionStatement",
   expression: {
     type: "CallExpression",
@@ -9,34 +9,25 @@ const isSapUiRequire = _.matches({
       object: {
         type: "MemberExpression",
         object: { type: "Identifier", name: "sap" },
-        property: { type: "Identifier", name: "ui" },
+        property: { type: "Identifier", name: "ui" }
       },
-      property: { type: "Identifier", name: "define" },
-    },
-  },
+      property: { type: "Identifier", name: "define" }
+    }
+  }
 });
 
-const isReturnStatement = _.matches({ type: "ReturnStatement" });
+export const isReturnStatement = _.matches({ type: "ReturnStatement" });
 
-const isFunctionExpression = _.matches({ type: "FunctionExpression" });
+export const isFunctionExpression = _.matches({ type: "FunctionExpression" });
 
-const isObjectExpression = _.matches({ type: "ObjectExpression" });
+export const isObjectExpression = _.matches({ type: "ObjectExpression" });
 
-const isIdentifier = _.matches({ type: "Identifier" });
+export const isIdentifier = _.matches({ type: "Identifier" });
 
-const isUi5Extend = _.matches({
+export const isUi5Extend = _.matches({
   type: "CallExpression",
   callee: {
     type: "MemberExpression",
-    property: { type: "Identifier", name: "extend" },
-  },
+    property: { type: "Identifier", name: "extend" }
+  }
 });
-
-module.exports = {
-  isSapUiRequire,
-  isReturnStatement,
-  isFunctionExpression,
-  isObjectExpression,
-  isIdentifier,
-  isUi5Extend,
-};
