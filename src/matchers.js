@@ -22,6 +22,8 @@ const isFunctionExpression = _.matches({ type: "FunctionExpression" });
 
 const isObjectExpression = _.matches({ type: "ObjectExpression" });
 
+const isIdentifier = _.matches({ type: "Identifier" });
+
 const isUi5Extend = _.matches({
   type: "CallExpression",
   callee: {
@@ -35,5 +37,6 @@ module.exports = {
   isReturnStatement,
   isFunctionExpression,
   isObjectExpression,
+  isIdentifier,
   isUi5Extend,
 };

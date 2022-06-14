@@ -12,6 +12,7 @@
   "dependencies": {
     "abstract-syntax-tree": "^2.20.6",
     "commander": "^9.3.0",
+    "glob": "^8.0.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

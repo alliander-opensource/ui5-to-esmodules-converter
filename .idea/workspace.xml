@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598d9a1c-cfb2-48a3-880e-0431d96a6cba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matchers.js" afterDir="false" />
+    <list default="true" id="598d9a1c-cfb2-48a3-880e-0431d96a6cba" name="Changes" comment="Linting enabled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matchers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/matchers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;/home/vanlonden/.nvm/versions/node/v14.18.2/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/vanlonden/src/ui5-import-converter/node_modules/prettier&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -107,8 +106,18 @@
       <option name="presentableId" value="Default" />
       <updated>1655112498649</updated>
       <workItem from="1655112500124" duration="16255000" />
-      <workItem from="1655133569242" duration="1996000" />
+      <workItem from="1655133569242" duration="3491000" />
+      <workItem from="1655194946810" duration="1114000" />
+      <workItem from="1655196782232" duration="2409000" />
     </task>
+    <task id="LOCAL-00001" summary="Linting enabled">
+      <created>1655135809340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655135809340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +133,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Linting enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linting enabled" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.js</url>
+          <line>89</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
